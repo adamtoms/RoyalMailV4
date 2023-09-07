@@ -54,10 +54,10 @@ class UpdateStatusType
     public static function getAllowableEnumValues()
     {
         return [
-            self::HOLD
-            self::CANCEL
-            self::RELEASE
-            self::PICKED
+            self::HOLD,
+            self::CANCEL,
+            self::RELEASE,
+            self::PICKED,
         ];
     }
 }
