@@ -53,9 +53,9 @@ class DocumentType
     public static function getAllowableEnumValues()
     {
         return [
-            self::CN23
-            self::PI
-            self::CI
+            self::CN23,
+            self::PI,
+            self::CI,
         ];
     }
 }
