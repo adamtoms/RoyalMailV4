@@ -55,10 +55,10 @@ class RoyalMailLabelFormat
     public static function getAllowableEnumValues()
     {
         return [
-            self::PDF
-            self::PNG
-            self::DATASTREAM
-            self::ZPL203_DPI
+            self::PDF,
+            self::PNG,
+            self::DATASTREAM,
+            self::ZPL203_DPI,
             self::ZPL300_DPI
         ];
     }
