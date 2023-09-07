@@ -52,8 +52,8 @@ class WeightUnitOfMeasure
     public static function getAllowableEnumValues()
     {
         return [
-            self::KG
-            self::GRAMS
+            self::KG,
+            self::GRAMS,
         ];
     }
 }
